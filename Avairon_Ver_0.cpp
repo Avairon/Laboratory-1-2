@@ -1,6 +1,7 @@
 ﻿// laboratory_1_Avairon.cpp, работу сделал Липский.Н.А. Вариант 2
 
 #include <iostream>
+using namespase std;;
 
 int a;
 int b;
