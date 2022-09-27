@@ -18,17 +18,10 @@ float Second(float x1, float x2, float y1, float y2)
     float x;
     float y;
 
-    if (x1 > x2)
-    {
-        x = x1 - x2;
-    }
-    else
-    {
-        x = x2 - x1;
-    }
+    if (x1 > x2) { x = x1 - x2; }
+    else { x = x2 - x1; }
 
     if (y1 > y2) { y = y1 - y2; }
-  
     else { y = y2 - y1; }
     
     return (x ^ 2 + y ^ 2) ^ 0.5; // возврат с подсчетом, О(н): (ввод) + (подсчет) + (подсчет) + (подсчет) + (вывод) = 5
