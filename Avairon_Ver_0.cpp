@@ -69,12 +69,12 @@ bool Sixth(int a, int b)
 
 int Chess()
 {
-    int pl = 64;
-    int z = 1;
-    for(pl = 64, pl > 0, pl-=1;)
+    int summ = 0;
+    for(int i = 0, i < 64, i++)
     {
-        
+         summ = summ + 2^i;
     }
+    return summ;
 }
 
 int main() // а тут я тестил все богохульство написанное выше
