@@ -16,7 +16,7 @@ void first()
     int maxnum = 0;
     int rd;
     int summ = 0;
-    int a = 15;    
+    int a;    
         
     FILE *predel;
     predel = fopen("C:\check\predel.txt", "r");
@@ -72,7 +72,7 @@ void second()
             break;
         }
     }
-    //fclose(endgame);
+    fclose(endgame);
 }
 
 int main()
